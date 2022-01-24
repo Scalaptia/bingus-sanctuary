@@ -7,6 +7,7 @@ body {
     background-color: white;
 }
 
+/* Header Style */
 .header {
     height: 72px;
     background: #1F2937;
@@ -16,12 +17,10 @@ body {
     font-size: 32px;
     font-weight: 900;
     padding: 0 16px;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
-
-h1 {
-    font-size: 24px;
-    color: white
+.logo {
+    margin-right: 200px;
 }
 
 .header ul {
@@ -33,7 +32,20 @@ h1 {
     padding: 0px;
 }
 
+
+/* Content Style */
 li {
 
     margin-right: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb
+}
+
+h1 {
+    font-size: 24px;
+    color: white
+    margin-ri
 }

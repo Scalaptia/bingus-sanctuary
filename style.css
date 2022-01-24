@@ -1,9 +1,3 @@
-/*
-* {
-    outline: red solid 2px;
-}
-*/
-
 /* Content Style */
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -40,9 +34,9 @@ a {
 
 .header ul {
     font-size: 18px;
-    color: #e5e7eb;
-    display: flex;
+    color: lightgray;
     list-style-type: none;
+    display: flex;
     margin: 0px;
     padding: 0px;
 }
@@ -62,15 +56,42 @@ a {
     display: flex;
     align-items: center;
     padding: 0 16px;
-    justify-content: space-around;
-    text-align: center;
+    justify-content: space-evenly;  
 }
 
 .intro{
     color: #F9FAF8;
     font-size: 48px;
     font-weight: bolder;
-
+    margin: 10px;
 }
 
+.intro-page h2{
+    font-size: 18px;
+    color: lightgrey;
+    margin: 10px;
+}
 
+.intro-page button{
+    width: 90px;
+    height: 35px;
+    margin: 10px;
+    color: white;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.intro-page img{
+    height: 300px;
+    width: auto;
+    border-radius: 20px;
+}
+
+.intro-page .container{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}

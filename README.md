@@ -1,1 +1,1 @@
-# landing-page
+# bingus-sanctuary

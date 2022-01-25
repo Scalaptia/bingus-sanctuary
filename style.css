@@ -141,3 +141,51 @@ a {
     color: #1F2937;
     margin-top: 20px;
 }
+
+/* Quote */
+
+.quote{
+    height: 400px;
+    background: #e5e7eb;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.quote h1{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote h2{
+    font-size: 30px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+/* Contact */
+
+.contact{
+    height: 400px;
+    background: white;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    justify-content: center;
+}
+
+.contact .container{
+    height: 200px;
+    width: 1250px;
+    background: #3882f6;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    justify-content: center;
+    border-radius: 10px;
+}
